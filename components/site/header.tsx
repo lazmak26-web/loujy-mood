@@ -26,7 +26,7 @@ export function Header() {
   return (
     <header data-header className="sticky top-0 z-40 border-b border-transparent bg-background/80 backdrop-blur transition-[border-color,box-shadow] duration-300 data-[scrolled]:border-border/70 data-[scrolled]:shadow-[0_1px_12px_-6px_rgb(0_0_0/0.15)] supports-[backdrop-filter]:bg-background/65">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6">
-        <a href="#top" className="font-serif text-2xl tracking-tight">Riviera Clothes</a>
+        <a href="#top" className="font-serif text-2xl tracking-tight">Cointo</a>
 
         <nav aria-label="Main" className="hidden items-center gap-8 md:flex">
           {NAV.map((item) => (

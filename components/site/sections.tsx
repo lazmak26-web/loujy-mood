@@ -43,7 +43,7 @@ export function Story() {
         </div>
         <div className="space-y-6 text-base leading-relaxed text-background/75">
           <p data-reveal>
-            Riviera Clothes started as one rail in a shared studio: a handful of tees we couldn&apos;t stop wearing. We still work that way. Each drop we hang a few pieces, and only a few.
+            Cointo started as one rail in a shared studio: a handful of tees we couldn&apos;t stop wearing. We still work that way. Each drop we hang a few pieces, and only a few.
           </p>
           <p data-reveal>
             Every garment is cut by small mills we visit in person, from fibres we can trace. No seasonal sales, no
@@ -119,13 +119,13 @@ export function Footer() {
   const cols = [
     { title: "Shop", links: ["New drop", "Tees", "Gift card"] },
     { title: "Help", links: ["Shipping", "Returns", "Size guide", "Repairs", "Contact"] },
-    { title: "Riviera Clothes", links: ["Our story", "Mills", "Journal", "Stockists"] },
+    { title: "Cointo", links: ["Our story", "Mills", "Journal", "Stockists"] },
   ];
   return (
     <footer className="border-t border-border">
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-[1.5fr_repeat(3,1fr)]">
         <div>
-          <p className="font-serif text-2xl">Riviera Clothes</p>
+          <p className="font-serif text-2xl">Cointo</p>
           <p className="mt-3 max-w-xs text-sm text-muted-foreground">Small-batch clothing, hung a few pieces at a time.</p>
         </div>
         {cols.map((col) => (
@@ -142,13 +142,13 @@ export function Footer() {
         ))}
       </div>
       <div className="border-t border-border">
-        <p className="mx-auto max-w-7xl px-4 py-6 text-xs text-muted-foreground sm:px-6">© {new Date().getFullYear()} Riviera Clothes. All rights reserved.</p>
+        <p className="mx-auto max-w-7xl px-4 py-6 text-xs text-muted-foreground sm:px-6">© {new Date().getFullYear()} Cointo. All rights reserved.</p>
       </div>
     </footer>
   );
 }
 
-const MARQUEE_WORDS = ["Riviera Clothes", "New drop", "Oversized tees", "Acid wash", "Free shipping over 500 DH", "Raglan piping", "Metal logo"];
+const MARQUEE_WORDS = ["Cointo", "New drop", "Oversized tees", "Acid wash", "Free shipping over 500 DH", "Raglan piping", "Metal logo"];
 
 /** Endless ticker; GSAP speeds it up with scroll velocity (see page-motion.tsx). */
 export function Marquee() {
